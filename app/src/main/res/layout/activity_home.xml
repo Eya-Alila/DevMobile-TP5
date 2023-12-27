@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_background"
+    android:orientation="horizontal"
+    tools:context=".vue.HomeActivity">
+    <Button
+        android:id="@+id/btnConsultation"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="@string/consultation"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:onClick="consultation"
+        android:backgroundTint="#d54d7c"
+        />
+</RelativeLayout>
+
+
